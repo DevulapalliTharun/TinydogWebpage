@@ -1,0 +1,151 @@
+#title{
+    background-color:orangered;
+    
+}
+
+
+
+h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: azure;
+}
+h3{
+    font-family: "Montserrat";
+}
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;  
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+.navbar{
+    padding-bottom:4.5rem;
+}
+.nav-item{
+
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+    
+}
+
+.button{
+    margin: 15px 0px 0px 10px;
+}
+
+.title-image{
+    width:25%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 30%;
+    padding: 4% 4%;
+    
+}
+
+#features{
+    padding: 2% 5%;
+    background-color:white;
+    position:relative;
+    z-index: 1;
+}
+.feature-box {
+    text-align:center;
+    padding: 5%;
+}
+
+.icon{
+    color: orangered;
+    margin-bottom: 10%;
+}
+
+.icon:hover{
+     color: black;
+}
+
+#testimonials{
+    
+    text-align: center;
+    color: aliceblue;
+}
+.testimonial-image{
+    width: 75px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+#press{
+    background-color: orangered;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width: 20%;
+    padding: 3% 3%;
+    
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+#pricing{
+    background-color: rgb(249, 248, 248);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card-deck{
+    text-align: center;
+    margin: 30px 50px;
+    
+
+}
+.card{
+    background-color: orangered;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:2% 20% 2% 20%;
+    border: 3px solid;
+}
+
+#cta{
+    text-align: center;
+    background-color:orangered;
+    padding:30px 0px ;
+    color: aliceblue;
+    
+}
+.ctah3{
+    padding: 4% 30% 6% 30%;
+     font-family:'Rowdies', cursive;
+      font-size:50px;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+    transform: rotate(0);
+    
+    width: 60%;
+    text-align: center;
+    }
+    .ctah3{
+font-size: 30px;
+padding: 4% 15% 6% 15%;
+    }
+
+}
+
+
